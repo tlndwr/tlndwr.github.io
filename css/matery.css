@@ -101,7 +101,7 @@ blockquote {
 }
 
 pre {
-    padding: 2rem 1rem 1rem 3rem !important;
+    padding: 2rem 1rem 1rem 1rem !important;
     border-radius: 0.35rem;
     tab-size: 4;
 }
@@ -529,7 +529,6 @@ header .go-back i {
 }
 
 /* 背景图效果. */
-/*
 .bg-cover {
     position: relative;
     display: flex;
@@ -542,7 +541,7 @@ header .go-back i {
     background-size: cover;
     transform: translate3d(0px, 0px, 0px);
 }
-*/
+
 .index-cover {
     height: 100vh;
 }
@@ -550,8 +549,8 @@ header .go-back i {
 .post-cover {
     height: 40vh !important;
 }
-/*
-.bg-cover:after {
+
+/*.bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
 }
@@ -639,7 +638,6 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
 }
-
 
 @keyframes rainbow {
 
@@ -1867,13 +1865,8 @@ footer .copy-right {
     margin: -15px 0 10px 10px;
 }
 
-p.search-result-summary{
-    margin: 15px 0 0 -8px;
-}
-
 #searchResult .search-result-list {
     margin-left: -8px;
-    margin-top: 0px;
     padding-left: 0;
     color: #666;
 }
